@@ -73,7 +73,7 @@ public class ImagePickerAdapter extends BaseListAdapter<ImagePickerAdapter.Image
                 : View.GONE);
 
         viewHolder.alphaView.setAlpha(isSelected
-                ? 0.5f
+                ? 1f
                 : 0f);
 
         viewHolder.itemView.setOnClickListener(v -> {
